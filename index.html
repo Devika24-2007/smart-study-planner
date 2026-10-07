@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Study Planner</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>📚 Smart Study Planner</h1>
+        <p>Plan your studies. Track your progress.</p>
+
+        <h2>Enter Your Study Details</h2>
+
+        <label>Subject 1</label>
+        <input type="text" id="subject1" placeholder="Example: DBMS">
+
+        <label>Exam Date</label>
+        <input type="date" id="date1">
+
+        <label>Subject 2</label>
+        <input type="text" id="subject2" placeholder="Example: DSA">
+
+        <label>Exam Date</label>
+        <input type="date" id="date2">
+
+        <label>Subject 3</label>
+        <input type="text" id="subject3" placeholder="Example: Mathematics">
+
+        <label>Exam Date</label>
+        <input type="date" id="date3">
+
+        <label>Available Study Hours Per Day</label>
+        <input type="number" id="hours" placeholder="Example: 4" min="1">
+
+        <button onclick="generatePlan()">Generate Study Plan</button>
+
+        <div id="result"></div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
